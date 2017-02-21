@@ -1825,16 +1825,69 @@ ul.portfolio li.active {
 
 /* UiPasta Credit */
 
-.uipasta-credit {
+.design-acs {
 	color: #333333;
 	text-align: center;
 }
 
-.uipasta-credit a {
+.design-acs a {
 	color: #4c9cef;
 	font-weight: 600;
 }
 
-.uipasta-credit a:hover {
+.design-acs a:hover {
 	color: #f7639a;
+}
+
+
+/* RESPONSIVE SCREEN , non-retina */
+@media only screen and (min-width: 320px) {
+  /* Small screen, non-retina */
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (                min-resolution: 192dpi) and (min-width: 320px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 320px) {
+
+  /* Small screen, retina, stuff to override above media query */
+
+}
+
+@media only screen and (min-width: 700px) {
+
+  /* Medium screen, non-retina */
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 700px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (                min-resolution: 192dpi) and (min-width: 700px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 700px) {
+
+  /* Medium screen, retina, stuff to override above media query */
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+  /* Large screen, non-retina */
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) {
+
+  /* Large screen, retina, stuff to override above media query */
+
 }
